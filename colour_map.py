@@ -1,4 +1,4 @@
-# List of color variables with their names
+# List of colour variables with their names
 import sys
 sys.path.append("/home/rj/brand_colours/")
 from colours import *
@@ -17,7 +17,7 @@ html_blocks = ""
 # for col_name in all_colours.keys():
 # print(col_name, all_colours[col_name], all_colours[col_name].hex())
 
-# Loop through the color data and generate HTML for each color
+# Loop through the colour data and generate HTML for each colour
 for i, col_name in enumerate(all_colours.keys(), start=1):
     html_block = f"""
     <div class="color-box" style="background-color: {all_colours[col_name].hex()}">
@@ -30,7 +30,7 @@ for i, col_name in enumerate(all_colours.keys(), start=1):
     if i % 6 == 0:
         html_blocks += "<br>"
 
-# Create a complete HTML page with a grid of color boxes
+# Create a complete HTML page with a grid of colour boxes
 html_template = f"""
 <!DOCTYPE html>
 <html>
