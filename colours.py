@@ -50,8 +50,8 @@ yellowl5 = RGB(250, 220, 172)
 
 # greys
 grey = RGB(211, 202, 191)
-grey1 = RGB(211, 202, 191)
-grey2 = RGB(190, 182, 172)
+grey1 = RGB(190, 182, 172)
+grey2 = RGB(169, 162, 153)
 grey3 = RGB(148, 141, 134)
 grey4 = RGB(127, 121, 115)
 grey5 = RGB(106, 101, 96)
