@@ -1,7 +1,7 @@
 # List of colour variables with their names
 import sys
 sys.path.append("/home/rj/brand_colours/")
-from colours import *
+from brand_colours.brand_colours import *
 
 blues = {var: value for var, value in globals().items() if var.startswith('blue')}
 yellows = {var: value for var, value in globals().items() if var.startswith('yellow')}
